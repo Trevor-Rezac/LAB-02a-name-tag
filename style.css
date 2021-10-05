@@ -5,6 +5,10 @@ body{
 #main-tag{
     background-color: red;
     padding-bottom: 10px;
+    border-radius: 5px;
+    width: 200px;
+    
+    
 }
 
 #primary-header{
@@ -33,6 +37,6 @@ p{
     background-color: grey;
     padding: 1px;
     margin-top: 2px;
-    box-sizing: border-box;
+    width: 200px;
 }
 
