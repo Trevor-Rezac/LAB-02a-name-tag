@@ -1,0 +1,38 @@
+
+body{
+    text-align: center;
+}
+#main-tag{
+    background-color: red;
+    padding-bottom: 10px;
+}
+
+#primary-header{
+    color: white;
+    font-family: Helvetica;
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    color: white;
+    font-family: Helvetica;
+    padding: 1px;
+    margin: 0px;
+    border: 0px;
+}
+
+#name{
+    color: black;
+    background-color: white;
+    font-family: "Brush Script MT";
+    font-size: 30px;
+}
+
+#grey-box{
+    background-color: grey;
+    padding: 1px;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
