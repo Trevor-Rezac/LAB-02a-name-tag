@@ -2,13 +2,12 @@
 body{
     text-align: center;
 }
+
 #main-tag{
     background-color: red;
     padding-bottom: 10px;
     border-radius: 5px;
-    width: 200px;
-    
-    
+    width: 210px;
 }
 
 #primary-header{
@@ -31,12 +30,12 @@ p{
     background-color: white;
     font-family: "Brush Script MT";
     font-size: 30px;
+    padding: 0px;
 }
 
 #grey-box{
-    background-color: grey;
-    padding: 1px;
-    margin-top: 2px;
-    width: 200px;
+    background-color: lightgrey;
+    padding: 2px;
+    width: 210px;
 }
 
