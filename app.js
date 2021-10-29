@@ -7,9 +7,19 @@ const lightGreen = document.getElementById('light-green');
 const lightBlue = document.getElementById('light-blue');
 const red = document.getElementById('red');
 
-updateButton.addEventListener('click', () =>  {
+
+nameInput.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    // document.getElementById(updateButton).click(); //this isn't needed
     const newName = nameInput.value;
     name.textContent = newName;
+  } 
+});
+
+updateButton.addEventListener('click', () =>  {
+  const newName = nameInput.value;
+  name.textContent = newName;
 });
 
 pink.addEventListener('click', () => {
